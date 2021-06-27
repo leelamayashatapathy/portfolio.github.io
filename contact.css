@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.col29{
+    padding:4% 4%;
+}
+.col29 img{
+    height: 300px;
+    width: 350px;
+}
+
+.butn{
+    padding-left: 47%;
+}
+
+
+/* Style all font awesome icons */
+.social{
+    padding-top: 3%;
+    padding-left: 30%;
+}
+.social ul{
+    display: flex;
+}
+.social ul li{
+    list-style: none;
+    padding: 4%;
+
+}
+
+.social ul li a{
+    text-decoration: none;
+}
+
+.fa-facebook{
+    font-size:30px;
+}
+
+.fa-instagram{
+    font-size:30px;
+}
+
+.fa-twitter{
+    font-size:30px;
+}
+.fa-linkedin{
+    font-size:30px;
+}
+.fa-github{
+    font-size:30px;
+}
+
+
+
+@media(max-width: 786px) {
+    .col29 img{
+        height: 200px;
+        width: 300px;
+    }
+    .butn{
+        padding-top: 4%;
+        padding-left: 38%;
+    }
+
+    .social{
+        padding-top: 4%;
+        padding-left: 7%;
+    }
+
+}
